@@ -1,8 +1,10 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "turniplabs.examplemod.mixin",
+    "package": "minerforstone.debugstick.mixin",
     "compatibilityLevel": "JAVA_8",
+    "server": [
+    ],
     "mixins": [
     ],
     "client": [

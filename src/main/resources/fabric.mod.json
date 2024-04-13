@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "debugstick",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Debug Stick",
+  "description": "Adds the debug stick to BTA!",
   "authors": [
-    "Turnip Labs"
+    "MinerForStone"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://github.com/MinerForStone/Debug-Stick-BTA",
+		"issues": "https://github.com/MinerForStone/Debug-Stick-BTA/issues",
+    "sources": "https://github.com/MinerForStone/Debug-Stick-BTA"
   },
 
 	"icon": "icon.png",
@@ -19,20 +20,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"minerforstone.debugstick.Main"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"minerforstone.debugstick.Main"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"minerforstone.debugstick.Main"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"minerforstone.debugstick.Main"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "debugstick.mixins.json"
   ],
 
   "depends": {
